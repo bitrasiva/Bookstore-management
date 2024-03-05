@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bookstore Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Bookstore Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Add Event</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="event-listing">
+            <h2>Upcoming Events</h2>
+            <!-- Event cards will be dynamically added here -->
+        </section>
+        <section id="add-event">
+            <h2>Add Event</h2>
+            <form id="event-form">
+                <label for="title">Event Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Event Time:</label>
+                <input type="time" id="time" name="time" required>
+                <label for="location">Event Location:</label>
+                <input type="text" id="location" name="location" required>
+                <label for="description">Event Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Add Event</button>
+            </form>
+               
+        </section>
+        <section id="search">
+            <h2>Search Events</h2>
+            <form id="search-form">
+                <label for="search-input">Search:</label>
+                <input type="text" id="search-input" name="search-input">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore Management System. All rights reserved.</p>
+    </footer>
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
+</html>
